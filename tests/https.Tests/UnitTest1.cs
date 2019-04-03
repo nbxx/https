@@ -47,7 +47,7 @@ namespace Https.Tests
 
     public class Startup
     {   
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.Run(async (context) =>
             {
